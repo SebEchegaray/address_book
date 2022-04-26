@@ -1,0 +1,70 @@
+.list_wrapper {
+  border-top: 0.1rem solid rgb(40, 84, 134);;
+  padding: 0 3rem;
+}
+
+/* General List Nav Styles */
+.list-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 18.3%;
+  padding: 3rem 0;
+}
+
+.list-btn {
+  border: none;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 0.4rem #BBBBBB;
+  width: 12rem;
+  height: 4rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  background-color: rgb(235, 235, 235);
+  color: rgb(84, 135, 194);
+  cursor: pointer;
+  transition: 0.25s all;
+}
+.list-btn:hover {
+  box-shadow: 0 0.35rem 0.9rem #BBBBBB;
+}
+/* General List Nav Styles */
+
+/* List header Styles */
+.list_header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.list_header-headline {
+  font-size: 4rem;
+  text-shadow: none;
+  text-align: left;
+}
+.alpha-sort-surname i:before {
+  content: "\F04B";
+  font-family: 'Font Awesome\ 5 Free';
+  font-weight: 900;
+}
+.list_header-sort {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-color: rgb(56, 96, 142);
+  border-radius: 0.5rem;
+  /* border-left: 0.05rem solid rgb(84, 135, 194); */
+  width: 15rem;
+  height: 4rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: rgb(84, 135, 194);
+  cursor: pointer;
+}
+/* List header Styles */
+
+/* General Common Styles */
+.btn-icon {
+  font-size: 2rem;
+  margin-right: 1rem;
+}
+/* General Common Styles */
